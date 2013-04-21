@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface SegueTestViewController : UIViewController
+- (IBAction)test1:(UIButton *)sender;
+- (IBAction)test2:(UIButton *)sender;
+- (IBAction)test3:(UIButton *)sender;
 
 @end

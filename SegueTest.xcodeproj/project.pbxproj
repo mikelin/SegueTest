@@ -18,6 +18,10 @@
 		2718A6F61715454E0061B95D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2718A6F51715454E0061B95D /* Default-568h@2x.png */; };
 		2718A6F91715454E0061B95D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2718A6F71715454E0061B95D /* MainStoryboard.storyboard */; };
 		2718A6FC1715454E0061B95D /* SegueTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2718A6FB1715454E0061B95D /* SegueTestViewController.m */; };
+		2718A70617154CCC0061B95D /* FaceView.h in Sources */ = {isa = PBXBuildFile; fileRef = 2718A702171545E50061B95D /* FaceView.h */; };
+		2718A70717154CCC0061B95D /* FaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2718A703171545E50061B95D /* FaceView.m */; };
+		2718A70817154CCC0061B95D /* HappinessViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 2718A704171545E50061B95D /* HappinessViewController.h */; };
+		2718A70917154CCC0061B95D /* HappinessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2718A705171545E50061B95D /* HappinessViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,10 @@
 		2718A6F81715454E0061B95D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		2718A6FA1715454E0061B95D /* SegueTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SegueTestViewController.h; sourceTree = "<group>"; };
 		2718A6FB1715454E0061B95D /* SegueTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SegueTestViewController.m; sourceTree = "<group>"; };
+		2718A702171545E50061B95D /* FaceView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FaceView.h; sourceTree = "<group>"; };
+		2718A703171545E50061B95D /* FaceView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceView.m; sourceTree = "<group>"; };
+		2718A704171545E50061B95D /* HappinessViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HappinessViewController.h; sourceTree = "<group>"; };
+		2718A705171545E50061B95D /* HappinessViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HappinessViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +91,10 @@
 		2718A6E51715454D0061B95D /* SegueTest */ = {
 			isa = PBXGroup;
 			children = (
+				2718A702171545E50061B95D /* FaceView.h */,
+				2718A703171545E50061B95D /* FaceView.m */,
+				2718A704171545E50061B95D /* HappinessViewController.h */,
+				2718A705171545E50061B95D /* HappinessViewController.m */,
 				2718A6EE1715454D0061B95D /* SegueTestAppDelegate.h */,
 				2718A6EF1715454D0061B95D /* SegueTestAppDelegate.m */,
 				2718A6F71715454E0061B95D /* MainStoryboard.storyboard */,
@@ -174,6 +186,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2718A70617154CCC0061B95D /* FaceView.h in Sources */,
+				2718A70717154CCC0061B95D /* FaceView.m in Sources */,
+				2718A70817154CCC0061B95D /* HappinessViewController.h in Sources */,
+				2718A70917154CCC0061B95D /* HappinessViewController.m in Sources */,
 				2718A6EC1715454D0061B95D /* main.m in Sources */,
 				2718A6F01715454D0061B95D /* SegueTestAppDelegate.m in Sources */,
 				2718A6FC1715454E0061B95D /* SegueTestViewController.m in Sources */,
